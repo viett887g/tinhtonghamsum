@@ -1,0 +1,80 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOOwVmCRMJcyvz6ijPz8lm4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/viett887g/tinhtonghamsum/blob/main/tinh%20tong%20ham%20sum()\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rAJV0hS0SerP",
+        "outputId": "5c14e8d2-e973-44e1-ff08-5a29ce8dd780"
+      },
+      "source": [
+        "tong = 0\n",
+        "n=1\n",
+        "print(\"tổng tất cả các số\")\n",
+        "print(\"tính tổng sum(n)= 1 + 2 + 3 + … + n\")\n",
+        "# nhập dữ liệu\n",
+        "print(\"nhập số n\")\n",
+        "n= int(input())\n",
+        "for i in range(0, n+1):\n",
+        "    tong += i\n",
+        " \n",
+        "# In kết quả\n",
+        "print (\"Tổng là: \", tong)\n"
+      ],
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "tổng tất cả các số\n",
+            "tính tổng sum(n)= 1 + 2 + 3 + … + n\n",
+            "nhập số n\n",
+            "6\n",
+            "Tổng là:  21\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tw5N9gLkShAZ"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
